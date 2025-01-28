@@ -169,20 +169,71 @@
         </section>
 
 
-        <section class="newsletter-signup">
-            <div class="container">
-                <div class="signup-content">
-                    <h2 class="signup-title">Будь в курсе событий</h2>
-                    <form action="https://echo.htmlacademy.ru" class="signup-form" id="newsletterForm" method="post">
-                        <input type="email" id="email" name="email" class="email-input"
-                            placeholder="Укажите Ваш email адрес:" required>
+        git branch -M main
+        git push -u origin main
+        git branch -M main
+        git push -u origin main
 
-                        <button type="submit" class=" button signup-button">Подписаться</button>
-                    </form>
+        GitHub’ga loyiha yuklash juda oson! Quyida qadam-baqadam tushuntirib beraman:
 
-                </div>
-            </div>
-        </section>
+        1. GitHub’da Repository Yaratish
+        GitHub hisobingizga kiring.
+        Yuqoridagi "+" belgisini bosing va **"New repository"**ni tanlang.
+        Quyidagilarni to‘ldiring:
+        Repository name: Loyihangiz nomini kiriting.
+        Description: (ixtiyoriy) qisqacha tavsif yozing.
+        Public yoki Private: Loyiha ochiq (Public) yoki shaxsiy (Private) bo‘lishini tanlang.
+        Initialize this repository with a README: Belgilangan bo‘lsa, README fayli qo‘shiladi.
+        "Create repository" tugmasini bosing.
+        2. Git Dasturini O‘rnatish (agar hali o‘rnatilmagan bo‘lsa)
+        Kompyuteringizga Git o‘rnatishingiz kerak:
+        
+        Git yuklab olish
+        O‘rnatgandan so‘ng, terminal yoki komandalar qatori orqali ishlashingiz mumkin.
+        
+        3. Loyihani Git orqali GitHub’ga yuklash
+        Terminalni oching va quyidagi buyruqlarni bajaring:
+        
+        1. Mahalliy loyihangizga o‘ting
+        bash
+        Copy
+        Edit
+        cd /loyiha_joylashgan_jild
+        2. Git repositoryni boshlash
+        bash
+        Copy
+        Edit
+        git init
+        3. O‘zgarishlarni qo‘shish
+        Barcha fayllarni qo‘shish uchun:
+        
+        bash
+        Copy
+        Edit
+        git add .
+        4. Commit qilish
+        Loyihangizni saqlash uchun commit yozing:
+        
+        bash
+        Copy
+        Edit
+        git commit -m "Birinchi commit"
+        5. Ulanishni o‘rnatish
+        GitHub repository’sini mahalliy loyihangiz bilan ulash:
+        
+        bash
+        Copy
+        Edit
+        git remote add origin https://github.com/username/repository_name.git
+        Bu yerda username – sizning GitHub login nomingiz, repository_name – yaratgan repository nomingiz.
+        
+        6. Yuklash (Push qilish)
+        Fayllarni GitHub’ga yuklash uchun:
+        
+        bash
+        Copy
+        Edit
+        git branch -M main                
 
         <section class="about__animals">
            <div class="container">
