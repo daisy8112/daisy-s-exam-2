@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const emailInput = document.querySelector('.email-input');
-    const signupButton = document.querySelector('.signup-button');
+    const emailInput = document.querySelector('.signup__input__email');
+    const signupButton = document.querySelector('.signup__button');
     const message = document.querySelector('#message');
   
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
