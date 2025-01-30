@@ -354,10 +354,12 @@ span {
 }
 
 .quotation-box {
- 
+    width:963px;
     display: flex;
-    padding: 43px 105px;
+    padding: 43px 55px;
     position: relative;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .quotation-text {
